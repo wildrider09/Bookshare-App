@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/asa"
+    android:orientation="vertical"
+    android:backgroundTint="#d6dfea"
+    android:foregroundTintMode="screen"
+    android:backgroundTintMode="multiply"
+
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPER:"
+        android:textColor="#eff3f7"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="27sp"
+        android:id="@+id/textView14" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABHISHEK GARG"
+        android:textStyle="bold"
+        android:textColor="#010810"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="23sp"
+        android:id="@+id/textView15" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CORE DEVELOPER\nINSERGO TECHNOLOGIES\nDEHRADUN."
+        android:textColor="#123456"
+        android:textStyle="normal"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20sp"
+        android:textColorHighlight="#123456"
+        android:id="@+id/textView2"
+        android:layout_weight="0.10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nCONTACT DETAILS:"
+        android:textColor="#082038"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="27sp"
+        android:id="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="+91-8979925143\nram101997@gmail.com"
+    android:textColor="#123456"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="25dp"
+    android:textSize="20sp"
+    android:textColorHighlight="#123456"
+    android:id="@+id/textView21" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xx7.site90.com"
+        android:textColor="#af4032"
+        android:textStyle="italic"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="22sp"
+        android:id="@+id/textView141" />
+
+
+</LinearLayout>
+

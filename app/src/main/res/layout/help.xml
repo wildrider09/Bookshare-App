@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    android:orientation="vertical"
+    android:backgroundTint="#87bff2"
+    android:backgroundTintMode="screen"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"
+        android:text="FAQ's"
+        android:textColor="#f55531"
+        android:textSize="37sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:text="Here are some frequently asked questions.
+Jump straight to FAQs for iOS, Android.\n"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/text19"
+        android:layout_width="408dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0.1dp"
+        android:text="1.How do I connect my site?\n\n2.What if I don’t have a site?\n\n3.Don’t remember my password?\n\n4.What is the Reader?"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/text119"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:text="Related to site and information"
+        android:textColor="#000000"
+        android:textSize="20.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text129"
+        android:layout_width="408dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="1.How can I manage my site?\n\n2.How do I make a new Post?\n\n3.How do I make a new Page?\n\n4.Can I make my text fancy?\n\n5.How can I add an image?         "
+        android:textColor="#080e04"
+        android:textSize="17sp" />
+
+</LinearLayout>

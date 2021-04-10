@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/ass"
+    android:backgroundTint="#5995ca"
+    android:backgroundTintMode="screen"
+
+
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#a32308"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="65dp"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPED_MARKED\n\n"
+        android:id="@+id/text13"
+        ></TextView>
+    <TextView
+    android:layout_width="wrap_content"
+    android:textColor="#4e0156"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="100dp"
+    android:textSize="32sp"
+    android:layout_height="wrap_content"
+    android:text=" KULDEEP SIR\n@INSERGO TECH."
+    android:id="@+id/text113"
+    ></TextView>
+
+
+
+</LinearLayout>

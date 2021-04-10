@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/assss"
+        android:backgroundTint="#376b9b"
+        android:backgroundTintMode="screen"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:hint="ENTER USER NAME"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:hint="NAME OF THE BOOK"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:hint="AUTHOR OF THE BOOK"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:hint="EDITION OF THE BOOK"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:shadowColor="#123456"
+            android:text="SELECT CATEGORY"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginTop="5dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:shadowColor="#123456"
+            android:text="SELECT SUBJECT"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:shadowColor="#123456"
+            android:text="SELECT STANDARD"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="PRICE OF THE BOOK"
+            android:inputType="numberSigned"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:layout_marginLeft="15dp"
+            android:inputType="numberSigned"
+            android:hint="CONTACT NUMBER"
+            android:textSize="20sp"
+            android:id="@+id/editText14" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0.21"
+
+                android:background="#d6b8d2"
+                android:text="GET LOCATION"
+                android:textColor="#234566"
+
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.245"
+                android:background="#d6b8d2"
+                android:text="SUBMIT"
+
+                android:textColor="#234566"
+
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

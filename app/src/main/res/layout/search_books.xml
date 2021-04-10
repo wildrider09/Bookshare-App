@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s"
+    android:layout_height="match_parent"
+    android:backgroundTint="#7692ab"
+    android:backgroundTintMode="screen"
+    android:weightSum="1">
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="31.5dp"
+    android:textSize="15dp"
+    android:textStyle="normal"
+    android:shadowColor="#123456"
+    android:text="SELECT CATEGORY"
+    android:id="@+id/textView51" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Spinner
+        android:layout_width="165dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="15dp"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner5" />
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:text="SUBMIT"
+            android:layout_marginTop="2.5dp"
+            android:background="#bfcfe9"
+            android:textColor="#ae4947"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/button3" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15.5dp"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+
+        android:cacheColorHint="#123456"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_weight="0.94" />
+</LinearLayout>
